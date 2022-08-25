@@ -1,13 +1,12 @@
 <?php
 
+require_once $_SERVER['DOCUMENT_ROOT'] . '/Inc\Classes\ParserCsv.php';
+
 use Inc\Classes\ParserCsv;
-
-require_once 'Inc\Classes\ParserCsv.php';
-
 
 if (!empty($_FILES['csv']['tmp_name'] ?? null)) {
     try {
-        $parserCsv = new ParserCsv($_FILES['csv'], $_POST['separator']);
+        $parserCsv = new ParserCsv($_FILES['csv'], $_POST['separator'] ?? '');
         $csv = $parserCsv->getParsedData();
     } catch (Exception $e) {
         $errorMessage = $e->getMessage();

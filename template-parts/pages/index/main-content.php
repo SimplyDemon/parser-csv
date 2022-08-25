@@ -2,7 +2,7 @@
     <h1>
         Parser CSV
     </h1>
-
+    <a href="/api-test">Тестирование апи</a>
     <?php
     if (!empty($errorMessage)) {
         ?>
@@ -14,8 +14,6 @@
         require_once 'template-parts/pages/index/table.php';
     }
 
-
     require_once 'template-parts/pages/index/form.php';
     ?>
-
 </div>

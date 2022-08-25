@@ -52,8 +52,6 @@ class ParserCsv
      *
      * @param string $item
      * @param string|int $key
-     * @param string $separator
-     *
      * @throws Exception
      */
     protected function csvStringToArray(string &$item, string|int $key)
