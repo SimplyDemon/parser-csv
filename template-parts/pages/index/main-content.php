@@ -2,7 +2,7 @@
     <h1>
         Parser CSV
     </h1>
-    <a href="/api-test">Тестирование апи</a>
+    <a href="/api-test">Api test</a>
     <?php
     if (!empty($errorMessage)) {
         ?>
