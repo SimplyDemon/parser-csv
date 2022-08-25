@@ -1,4 +1,4 @@
-<form action="/" method="post" name="upload_excel" enctype="multipart/form-data">
+<form action="/parser/" method="post" name="upload_excel" enctype="multipart/form-data">
     <div class="form-row">
         <div class="col">
             <input type="text" class="form-control" id="separator" name="separator" value="," maxlength="1" required>
