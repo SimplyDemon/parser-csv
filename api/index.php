@@ -1,6 +1,6 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/Inc\Classes\ParserCsv.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/Inc/Classes/ParserCsv.php';
 
 use Inc\Classes\ParserCsv;
 
